@@ -13,6 +13,10 @@ def is_unique2(string: str) -> bool:
     return True
 
 
+# Considerations:
+#   - What is the allowed character set?
+
+
 # Official solution, using other data structures
 def is_unique_optimal(string: str) -> bool:
     # Assumes that the string exclusively contains ASCII characters
