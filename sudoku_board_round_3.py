@@ -174,3 +174,4 @@ def generate_empty_board():
 
 if __name__ == "__main__":
     main()
+    # Time to complete: 40 minutes
