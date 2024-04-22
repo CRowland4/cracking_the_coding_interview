@@ -1,5 +1,5 @@
 # Write code to remove duplicates from an unsorted linked list.
-from data_structure_classes.singly_linked_list_node import SingleNode
+from data_structure_classes.singly_linked_list import SingleNode
 
 
 def remove_dups(head: SingleNode):

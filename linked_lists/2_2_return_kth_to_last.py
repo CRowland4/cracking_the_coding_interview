@@ -1,5 +1,5 @@
 # Implement an algorithm to find the kth to last element of a singly linked list
-from data_structure_classes.singly_linked_list_node import SingleNode
+from data_structure_classes.singly_linked_list import SingleNode
 
 
 def kth_to_last(head: SingleNode, k: int) -> SingleNode:
