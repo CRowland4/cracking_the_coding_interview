@@ -8,6 +8,7 @@ def main():
     board = create_solved_board(board, options, (0, 0))
 
     print_board(board)
+    print("\n\n")
     gaps_count = get_difficulty()
     board = create_gaps(board, gaps_count)
     print_board(board)
@@ -49,7 +50,6 @@ def print_board(board):
 
     print("-" * 21)
     return
-
 
 
 def create_solved_board(board, options, cell):
